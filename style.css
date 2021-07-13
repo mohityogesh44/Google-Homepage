@@ -1,0 +1,5 @@
+html {
+	/*Starting with a default size. Helps in overriding with rem sizes. e.g. 1.5 rem = 15px etc.*/
+	font-size: 10px;
+}
+
