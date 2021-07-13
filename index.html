@@ -6,36 +6,38 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<nav id="nav">
+		<a href="https://www.google.com/intl/en-GB/gmail/about/" id="gmail-link">Gmail</a>
+		<a href="https://www.google.co.in/imghp?hl=en&ogbl" id='images-link'>Images</a>
+		<button href="#" id="app-drawer"><img src="images/icon.png"></button>
+		<a href="#" id="profile-link"><img src="images/profile.jpg" id="profile-logo"></a>
+	</nav>
 	<main id='main'>
-		<nav id="nav">
-			<ul>
-				<li><a href="https://www.google.com/intl/en-GB/gmail/about/">Gmail</a></li>
-				<li><a href="https://www.google.co.in/imghp?hl=en&ogbl">Images</a></li>
-				<img src="images/icon.png">
-				<a href="#"><img src="images/profile.jpg" id='profile'></a>
-			</ul>
-		</nav>
 		<img src="images/logo.png" id='logo'>
-		<img src="images/search.svg" id="searchicon">
-		<input type="text" name="search" id='searchbar'>
-		<button>Google Search</button>
-		<button>I'm Feeling Lucky</button>
-		<section>
-			<h2>India</h2>
-		</section>
+		
+		<div class="search-bar">
+			<img src="images/search.svg" id="search-icon">
+			<input type="text" name="search" id='search-input'>
+		</div>
+
+		<div class='search-btns'>
+		<button class="btn">Google Search</button>
+		<button class="btn">I'm Feeling Lucky</button>
+		</div>
 	</main>
-	<footer id='footer'>
-		<ul id='footer-left'>
-			<li>About</li>
-			<li>Advertising</li>
-			<li>Business</li>
-			<li>How Search Works</li>
-		</ul>
-		<ul id='footer-right'>
-			<li>Privacy</li>
-			<li>Terms</li>
-			<li>Settings</li>
-		</ul>
+	<footer>
+		<div id="loc">India</div>
+		<div id="footer-left">
+			<a>About</a>
+			<a>Advertising</a>
+			<a>Business</a>
+			<a>How Search Works</a>
+		</div>
+		<div id='footer-right'>
+			<a>Privacy</a>
+			<a>Terms</a>
+			<a>Settings</a>
+		</div>
 	</footer>
 </body>
 </html>
